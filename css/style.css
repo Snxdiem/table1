@@ -36,11 +36,25 @@ ul {
     
     display: block;
 }
+.inside-horizontal {
+    max-height: 170px;
+    width: max-content;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+li:hover .inside-horizontal{
+    display: flex;
+}
+.inside-horizontal li {
+    width: 211px;
+    
 
+}
 .menu a {
     color:#FFF;
     text-decoration: none;
-    padding: 15px;
+    padding: 11px 15px;
+
     display: inline-block;
 }
 
